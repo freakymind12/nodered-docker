@@ -1,0 +1,12 @@
+services:
+  node-red:
+    image: nodered/node-red:latest
+    container_name: nodered-container
+    restart: always
+    ports:
+      - "1883:1880"
+    volumes:
+      - .:/data
+    environment:
+      - NODE_RED_ENABLE_SAFE_MODE=false
+      - TZ=Asia/Jakarta

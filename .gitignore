@@ -1,0 +1,32 @@
+# Ignore Node-RED data directory
+*.backup
+*.flow
+*.credentials
+*.json~
+*.log
+session.*.json
+
+# Ignore runtime state and context
+.context
+lib
+node_modules
+dist
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore VSCode and other editor-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore Docker specific files
+docker-compose.override.yml
+docker-compose.override*.yml
