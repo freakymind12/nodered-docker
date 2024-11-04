@@ -1,7 +1,19 @@
+# Setup Node-Red in Docker Container
+
+## Installation
+Clone this repository and running this command
+
+```bash
+docker-compose up -d
+```
+
+## Access
+Access Node-Red at http://localhost:1883
+
 ## User Account
-  - Admin level (All Permissions)
-    username : admin
-    password : admin123
-  - User level (Read)
-    username : user
-    password : user1234
+For login to nodered flow dashboard use account bellow
+
+| Level   | username   | Password     | Role     |
+| :------ | :--------- | :----------- | :------- |
+| `admin` | `admin`    | `admin123`   | `*`      |
+| `user`  | `user`     | `user1234`   | `Read`   |
